@@ -1,0 +1,121 @@
+html {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+body:not(div) {  /*temporary*/
+  color: cornsilk;  /*temporary*/
+  background-image: linear-gradient(to bottom left, royalblue, midnightblue);
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.user {
+  margin-left: 120px;
+}
+
+header {
+  text-align: center;
+  margin-top: 90px;
+}
+
+img {
+  border-radius: 15px;
+  width: 275px;
+  height: 390px;
+  margin: 10px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 0px;
+}
+
+.Creators {
+  width: 75%;
+  height: 118vh;
+  color: cornsilk;
+  background-image: linear-gradient(to bottom, rgb(10, 10, 10), black);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid cornsilk; /*temporary*/
+  margin: auto;
+  border-radius: 10px;
+}
+
+.container {
+  height: 400px;
+  width: 100%;
+}
+
+.text {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-right: 20px;
+}
+
+.navigation {
+  background-image: linear-gradient(to top, rgb(15, 15, 15), black);
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.logout {
+  background-color: gold;
+  color: darkblue;
+}
+
+.navigation img {
+  float:left;
+  width: 2.9%;
+  height: 2.9%;
+  margin-left: 0.8%;
+  margin-top: 0.275%;
+  margin-bottom: 8px;
+}
+
+.navigation p {
+  margin-left: 0.55%;
+  font-size: 25px;
+  float: left;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 13px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+.navigation a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 1.1% 1.21%;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-image: linear-gradient(to top, lightblue, royalblue);
+  color: black;
+}
+
+.navigation a.active {
+  background-color: cornsilk;
+  color: black;
+}
+
+footer {
+  font-size: 12px;
+  border: 1px solid cornsilk;
+  margin-right: 0px;
+  padding: 0 5px;
+  background-color: black; 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+

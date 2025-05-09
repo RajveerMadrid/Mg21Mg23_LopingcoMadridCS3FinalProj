@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+  }
+
+  .logout {
+    background-color: gold;
+    color: darkblue;
+  }
+  
+  body:not(div) {  /*temporary*/
+    display: grid;
+    place-items: center;
+    height: 105vh;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+
+    color: midnightblue;  /*temporary*/
+    background-image: linear-gradient(to bottom left, cornsilk, rgb(255, 239, 149));
+  }
+
+  .main {
+    display: flex;
+    gap: 200px;
+  }
+
+  .left h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .buttonImage {
+    border-radius: 50%;
+    width: 300px;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+  }
+
+  /*Spinning Button!*/
+  @-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+  }
+  @-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+  }
+  @keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+  }
+
+  .buttonImage:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .buttonImage:active {
+    opacity: 0.7;
+  }
+
+  .upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 60px;
+    border: 2px midnightblue solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  .midSection h4 {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .midSection p {
+    margin: 0;
+  }
+
+  .costInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .miniupgradeImg {
+    width: 20px;
+    margin-left: 20px;
+  }
+
+  .smallupgradeImg {
+    width: 27px;
+    margin-left: 16px;
+  }
+
+  .mediumupgradeImg {
+    width: 34px;
+    margin-left: 12px;
+  }
+
+  .bigupgradeImg {
+    width: 41px;
+    margin-left: 8px;
+  }
+
+  .largeupgradeImg {
+    width: 48px;
+    margin-left: 4px;
+  }
+
+  .giantupgradeImg {
+    width: 55px;
+  }
+
+  .buttonImg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .navigation {
+    background-image: linear-gradient(to top, rgb(15, 15, 15), black);
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navigation img {
+    float:left;
+    width: 2.9%;
+    height: 2.9%;
+    margin-left: 0.8%;
+    margin-top: 0.275%;
+  }
+  
+  .navigation p {
+    margin-left: 0.55%;
+    font-size: 25px;
+    float: left;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    margin-left: 15px;
+  }
+  
+  .navigation a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 1.1% 1.21%;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover {
+    background-image: linear-gradient(to top, lightblue, royalblue);
+    color: black;
+  }
+  
+  .navigation a.active {
+    background-color: cornsilk;
+    color: black;
+  }
+  
+  .nextLevelInfo {
+    position: absolute;
+    right: -98px;
+    height: 60px;
+    width: 100px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    border: 2px midnightblue solid;
+    display: none;
+  }
+
+  .nextLevelInfo p {
+    margin-top: 10px;
+  }
+
+  .upgrade:hover .nextLevelInfo {
+    display: block;
+  }
+
+  .footer {
+    place-self: center;
+    background-color: black;
+    border: 2px solid midnightblue;
+    width: 50%;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2px 4px;
+    color: white;
+    font-size: 12px;
+  }

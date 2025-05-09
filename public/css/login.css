@@ -1,0 +1,65 @@
+html {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  color: cornsilk; /*temporary*/
+  background-image: linear-gradient(to bottom left, royalblue, midnightblue);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logout {
+  background-color: gold;
+  color: darkblue;
+}
+
+div {
+  width: 32vw;
+  margin: auto;
+  padding: 1vw;
+  place-items: center;
+  background-image: linear-gradient(to bottom, rgb(30, 30, 30), black);
+  border: solid 1px cornsilk;
+}
+
+footer {
+  font-size: 12px;
+  border: 1px solid cornsilk;
+  margin-right: 0px;
+  padding: 0 0.275%;
+  background-color: black;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+input {
+  width: 180px;
+  height: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: cornsilk;
+  color: midnightblue;
+  margin: 2px;
+}
+
+form {
+  padding: 10px;
+  display: grid;
+  place-items: center;
+}
+
+button {
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+  width: 70px;
+  height: 40px;
+  background-color: cornsilk;
+  color: midnightblue;
+  border-radius: 10px;
+}
