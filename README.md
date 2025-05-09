@@ -66,4 +66,4 @@ user then check how much time it took for them to click on the window. We would 
 it takes for the cue to click (The change of color) to display using the random function so as to not make the change predictable as
 it would defeat the entire purpose of the test.
 
-[Link to the Actual Website](https://rajveermadrid.github.io/WDProjMagnesiumLopingcoMadrid/public/index.html)
+Run 'node app.js' in the terminal to start the website!
